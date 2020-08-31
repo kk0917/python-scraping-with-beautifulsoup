@@ -1,1 +1,1 @@
-# python-scraping-with-beautifulsoup
+# python-scraping-sample
