@@ -31,9 +31,9 @@ def strip_file_num(row):
         <a href="#" onclick="return doDownload(99999);">zip 999KB</a>
         target number is...                    ^^^^^ here!
     """
-    matchObj = re.search('[0-9]{5}', row)
+    match_obj = re.search('[0-9]{5}', row)
 
-    return int(matchObj.group()) # 
+    return int(match_obj.group()) # TODO: Consider whether to raise an exception
 
 def download_files(files_num):
     return files_num
